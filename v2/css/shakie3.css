@@ -1,0 +1,198 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+*{
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size:2em;
+	font-weight:normal;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size:1.3em;
+	font-weight:bold;
+	text-align:left;
+	margin-bottom:30px;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#ff99ff;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height:1.5;
+}
+
+.header {
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+}
+
+.header_img{
+	width:100%;
+	max-width:1920px;
+}
+
+.logo {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-550px;
+	max-width:500px;
+}
+
+.section {
+	width:100%;
+	max-width:1920px;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+.section h1 {
+	margin: 10px 100px;
+	font-family: 'Dosis', sans-serif;
+	font-size:3.5em;
+	font-weight:normal;
+	font-variant:small-caps;
+}
+
+.section-text {
+	text-align:left;
+	margin: 0% 15%;
+	font-family: 'Raleway', sans-serif;
+	line-height:1.5;
+}
+
+.section-text p {
+	margin-bottom:10px;
+}
+
+p.divider {
+	margin:20px auto;
+	text-align:center;
+}
+
+p.links {
+	text-align:center;
+	font-variant:small-caps;
+	font-family: 'Dosis', sans-serif;
+	font-size:2em;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.title {
+	font-variant: small-caps;
+}
+
+.panel {
+	text-align:left;
+	margin-top:30px;
+}
+
+.panel img {
+	max-width:1920px;
+	width:100%;
+	height:auto;
+}
+
+.mina {
+	max-width:200px;
+	margin-left:15%;
+	text-align:left;
+}
+
+.char-container {
+	text-align:center;
+	margin: 0% 15%;
+	font-family: 'Raleway', sans-serif;
+	line-height:1.5;
+}
+
+.characters {
+	max-width:30%;
+	height:auto;
+	text-align:center;
+	margin:5px 15px;
+	display:inline-block;
+	
+}
+
+.characters img {
+	max-width:250px;
+	max-height:auto;
+}
+
+.featureContainer {
+	width:75%;
+	height:auto;
+	margin:0px auto;
+	text-align:left;
+}
+
+.featureContainer img {
+	max-width:400px;
+	height:auto;
+	float:left;
+	border: 3px solid black;
+	margin:0px 20px 20px 0px;
+}
+
+.featureContainer p {
+	font-family: 'Raleway', sans-serif;
+	margin-top:20px;
+}
+
+.featureDescription {
+	float:left;
+}
+
+.featureHeader {
+	font-family: 'Dosis', sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.spacer {
+	clear:both;
+	width:100%;
+	height:5px;
+}
+
+.storyContainer {
+	width:75%;
+	margin:0px auto;
+}
+
+.storyContainer img {
+	max-width: 300px;
+	float:left;
+	height:auto;
+	display:inline-block;
+	margin:0px 20px 20px 0px;
+}
+
+.storyDescription {
+	margin:0px;
+	text-align:left;
+}
